@@ -1,0 +1,98 @@
+img{
+   width: 150px;
+   height: 150px;
+   margin: 20px;
+}
+div[name = "top"]{
+    display: flex;
+    height : 210px;
+    
+    background-color:rgb(186, 226, 111);
+}
+div[name = "whole"]{
+    border: black solid;}
+h1{
+    font-family: cursive;
+    color:rgb(13, 13, 14) ;
+    line-height: 6px ;
+    padding-top: 10px;
+}
+h2{
+    font: small;
+    font-family: cursive;
+    
+}
+h4[name="pers"]{
+    font-family: cursive;
+    color: rgb(33, 33, 36) ;
+   line-height: 0px;
+  padding-top: -15px;
+}
+
+h4[name="vol"]{
+    margin: 25px;
+    font-family: cursive;
+    color:rgb(33, 33, 36) ;
+    line-height: 3% ;
+}
+i{
+    margin-right: 15px;
+}
+.left{
+    background-color: rgb(230, 236, 229);
+    width: 50%;
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h3{
+    font-weight: 700;
+    font-family: cursive; 
+                  
+}
+.right{
+   width: 50%;
+   
+   background-color: rgb(230, 236, 229);
+}
+ul{
+    font-family: cursive;
+    font-size: medium;
+    line-height: 35px;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th{
+    text-align: left;
+    padding: 9px;
+    background-color: #a1a1a1;
+    color: white;
+    font-weight: 900;
+    font-size: small;
+    font-family: cursive; font-size: 15px; font-style: normal;
+  } 
+  td {
+    text-align: left;
+    padding: 12px;
+    font-weight: 600;
+    font-family: cursive; font-size: 12px; font-style: normal;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  p{
+      font-family: cursive;
+       line-height: 40px;
+  }
+  footer{
+      background-color: rgb(186, 226, 111);
+            align-items: center;
+      height: 110px;
+      }
+
+  
